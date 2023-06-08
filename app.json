@@ -17,16 +17,16 @@
     ],
     "website": "https://github.com/Cyniteofficial/Auto-Filter-V5",
     "repository": "https://github.com/Cyniteofficial/Auto-Filter-V5",
-    "env": {
-        "BOT_TOKEN": {5607614423:AAFZuyGXf17AVbHcVzc9lMJVqN4hIbfrSnM
+    "env":
+        "BOT_TOKEN": {
             "description": "Your bot token.",
             "required": true
         },
-        "API_ID": {21649383
+        "API_ID": {
             "description": "Get this value from https://my.telegram.org",
             "required": true
         },
-        "API_HASH": {de554b83f6308dfcb7e48fecc7384b08
+        "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
             "required": true
         },
