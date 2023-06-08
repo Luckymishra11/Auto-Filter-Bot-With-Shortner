@@ -12,10 +12,10 @@ def is_enabled(value, default):
 
 # Bot information
 PORT = environ.get("PORT", "8080")
-SESSION = environ.get('SESSION',BQGQoWwApYlmbIfUpdaxgAifV9ZAiide3l7aAvS0vaYhYaDgxwUxcVqzn0kOfa4yjHsFtjcJVTkjIt7QXq--D4h-PbdwNWsMuET40soWLHLdulC81XhSRWMhYUxGH9r8Z_U8OxZ3-DkGvEsPUMIEYjkODCQ9xK8pl4jhXsFGuJGkCbPOAHIK4Ql2D_HNidoOm3D-k288xagfoxg-HqFvXrZhMZkbihbTemqf_D_5JvgEXDrIi-pqyQJG1Id5zv4tyr4rZfRU7o1jyotIt3cGl-r83FtdBzGWqUmXXXsx8f5VU4w84jrpqluqd4iqQ2nv0rM6jnJgKWB9oVwCRHk9smlOr62BuAAAAAF3JfbsAA 'Media_search')
-API_ID = int(environ.get('API_ID',21649383 ''))
-API_HASH = environ.get('API_HASH',de554b83f6308dfcb7e48fecc7384b08 '')
-BOT_TOKEN = environ.get('BOT_TOKEN',5607614423:AAFZuyGXf17AVbHcVzc9lMJVqN4hIbfrSnM "")
+SESSION = environ.get('SESSION', 'Media_search')
+API_ID = int(environ.get('API_ID', '21649383'))
+API_HASH = environ.get('API_HASH', 'de554b83f6308dfcb7e48fecc7384b08')
+BOT_TOKEN = environ.get('BOT_TOKEN', "5607614423:AAFZuyGXf17AVbHcVzc9lMJVqN4hIbfrSnM")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
